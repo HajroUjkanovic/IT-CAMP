@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forme</title>
+  </head>
+  <body>
+    <h1>Forne u HTML</h1>
+    <form action="./index.html" target="_blank">
+      <label for="username">Unesite vas username </label>
+      <input
+        type="text"
+        name="Username"
+        id="username"
+        placeholder="username"
+        value="ja sam"
+      />
+      <!-- place holder mozemo koristiti umesto label, u polju pise sta treba -->
+      <br />
+      <br />
+      <label for="email">Unesite e-mail adresu</label>
+      <input type="email" name="Email adresa" id="email" required />
+      <br />
+      <br />
+      <label for="password">Unesite vasu lozinku</label>
+      <input type="password" name="Lozinka" id="password" />
+      <br />
+      <br />
+      <label for="godine">Unesite svoju starost</label>
+      <input
+        type="number"
+        name="unosgodina"
+        id="number"
+        step="2"
+        min="18"
+        max="120"
+      />
+      <br />
+      <br />
+      <label for="datum">Unesite datum rodjenja</label>
+      <input
+        type="date"
+        name="datum"
+        id="datum"
+        min="1970-01-01"
+        max="2020-01-01"
+      />
+      <br />
+      <br />
+      <p>Odaberite nekoliko stavki</p>
+      <label for="jagoda">Jagoda</label>
+      <input type="checkbox" name="jagoda" id="jagoda" checked />
+      <!-- checked koristimo da stavka uvek bude stiklirana -->
+      <!-- ako stavimo name isti necemo moc da chekiramo dve stavke (male, female) -->
+      <br />
+      <br />
+      <label for="jabuka">jabuka</label>
+      <input type="checkbox" name="jabuka" id="jabuka" />
+      <br />
+      <br />
+      <p>Odaberite pol</p>
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="male" value="male" />
+      <br />
+      <br />
+      <label for="female">Female</label>
+      <input type="radio" name="gender" id="female" value="female" />
+      <br />
+      <br />
+      <label for="eyeColor">Eye Color</label>
+      <select name="eyeColor" id="eyeColor">
+        <option value="brown">Brown</option>
+        <option value="green">Green</option>
+        <option value="blue" selected>Blue</option>
+      </select>
+      <br />
+      <br />
+      <label for="Biografija">Ispisite vasu biografiju</label> <br />
+      <textarea
+        maxlength="50"
+        name="Biografija"
+        id="Biografija"
+        cols="30"
+        rows="10"
+      ></textarea>
+      <br />
+      <br />
+      <label for="phone">Unesite broj telefona</label>
+      <input type="tel" name="phone" id="phone" />
+      <br />
+      <br />
+      <label for="color">Vasa omiljena boja je:</label>
+      <input type="color" name="color" id="color" />
+      <br />
+      <br />
+      <button type="reset">Resetuj</button>
+      <button type="submit">Potvrdi</button>
+    </form>
+  </body>
+</html>

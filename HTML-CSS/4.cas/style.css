@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #590879;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #f0ffff;
+}
+div {
+  margin-top: 200px;
+}
+table {
+  margin: auto;
+  border-collapse: collapse;
+  background-color: #000000;
+  border-radius: 15px;
+  box-shadow: 20px 20px 20px 20px rgba(196, 170, 42, 0.2344);
+  width: 700px;
+  height: 350px;
+}
+table thead tr {
+  text-align: center;
+  height: 15px;
+  border-bottom: 3px solid #0d86bd;
+}
+table tbody tr td {
+  text-align: center;
+  height: 15px;
+  border: 1px dashed #0d86bd;
+}
+table tfoot tr td {
+  text-align: right;
+  padding: 5px;
+}

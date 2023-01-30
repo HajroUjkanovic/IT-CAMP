@@ -1,0 +1,82 @@
+.div1 {
+  width: 400px;
+  height: 850px;
+  background-color: #282828;
+  margin: auto;
+  margin-top: 80px;
+  border: 3px solid #ee9c24;
+  border-radius: 6.5px;
+  box-shadow: 2px 2px 6px rgb(232, 10, 158);
+  overflow: auto;
+  overflow-x: hidden;
+  display: inline-block;
+}
+/* HTML ELEMENTS */
+/* block lebel elements */
+/* 1.1 div, header section main footer */
+/* 1.2 p */
+/* 1.3 h1-h6 */
+/* 1.4 ul,ol,li */
+
+/* INLINE ELEMENTS */
+/* 2.1 span */
+/* 2.2 a */
+/* 2.3 img */
+/* 2.4 button */
+/* 2.5 input */
+/* 2.6 textarea */
+.div1 img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 6.5px;
+}
+.div1 h1 {
+  text-align: center;
+  color: azure;
+}
+.div1 p {
+  text-align: justify;
+  text-indent: 15px;
+  color: azure;
+  padding-left: 7px;
+  padding-right: 7px;
+  text-align-last: right;
+}
+.div1 img:hover {
+  content: url(./fame\ zenski.jpg);
+}
+body {
+  background-image: url(./pacorabanne.gif);
+}
+.div2 {
+  width: 400px;
+  height: 650px;
+  background-color: #282828;
+  margin: auto;
+  margin-top: 80px;
+  border: 3px solid #2489ee;
+  border-radius: 6.5px;
+  display: inline-block;
+}
+.div2 img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 6.5px;
+}
+.div2 h1 {
+  text-align: center;
+  color: azure;
+}
+.div2 p {
+  text-align: justify;
+  text-indent: 15px;
+  color: azure;
+  padding-left: 7px;
+  padding-right: 7px;
+  text-align-last: right;
+}
+.div2 img:hover {
+  content: url(./unnamed.2.jpg);
+}
