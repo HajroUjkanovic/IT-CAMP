@@ -109,3 +109,42 @@ body {
 .main {
   display: flex;
 }
+#icon {
+  font-size: 100px;
+  color: blue;
+}
+.div4 {
+  width: 400px;
+  height: 700px;
+  margin: auto;
+  margin-top: 80px;
+  margin-left: 1cm;
+  margin-right: auto;
+  border: 3px solid #ee9c24;
+  border-radius: 6.5px;
+  box-shadow: 2px 2px 6px rgb(232, 10, 158);
+  display: inline-block;
+}
+
+.div5 {
+  width: 400px;
+  height: 700px;
+  margin: auto;
+  margin-top: 0cm;
+  margin-right: auto;
+  margin-left: 3cm;
+  border: 3px solid #2489ee;
+  border-radius: 6.5px;
+  display: inline-block;
+}
+.div6 {
+  width: 400px;
+  height: 700px;
+  margin: auto;
+  margin-top: 80px;
+  margin-left: 3cm;
+  margin-right: auto;
+  border: 3px solid rgba(245, 210, 17, 0.7);
+  border-radius: 6.5px;
+  display: inline-block;
+}
