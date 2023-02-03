@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: orange;
+  /* font-size: 0.5cm; */
+  /* font-size: 5mm; */
+  font-size: ;
+}
+
+.parent {
+  background-color: aqua;
+  /* width: 600px; */
+  /* width: 500pt; */
+  /* width: 60pc; */
+  /* width: 8in; */
+  /* width: 60vw; 60% u odnosu na sirinu ekrana (bez obzira na sirinu) */
+  /* width: 60vmin ;  */
+  /* width: 60vmax; */
+  width: 60%;
+  /* height: 400px; */
+  height: 40vh; /*40% u oodnosu na visinu ekrana ( bez obzira na velicinu) */
+  margin: 40px auto 30px;
+  font-size: 12px;
+}
+.child {
+  background-color: red;
+  margin: 40px auto 30px;
+  font-size: 1.3rem;
+  width: 80%;
+}
+/* font-size: 1.3em; 2*12px */
+/* u Css-u imamo apsolutne i relativne velicine */
+/* Absolute lenghts  */
+
+/*CM - Centimeters  */
+/* MM - Milimeters */
+/* IN - Inches (1inch=96px) */
+/* px - pixels  */
+/* pt - points (1pt=1/72 1 in) */
+/* pc - pices (1pc= 12pt) */
+
+/* 2. Relative lenghts  */
+
+/* em - relativna u odnosu na font size njenog parenta */
+/* rem - relativna u odnosu na roat element. Ne nasledjuje od parenta  */
+/* vw - viewport of the with. Relativan za 1% u odnosu na sirinu ekrana */
+/* vh - viewport of the heights. Relativan za 1% u odnosu na visinu ekrana */
+/* vmin - Relativan za 1% u odnosu na manju dimenziju */
+/* vmax - Relativan za 1% u odnosu na vecu dimenziju */
+/* % - Relativan za 1% u odnosu na svog parenta */
