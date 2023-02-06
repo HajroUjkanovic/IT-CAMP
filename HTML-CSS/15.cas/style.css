@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  background-color: aquamarine;
+  width: 600px;
+  height: 250px;
+}
+/* + se primenjuje na prvi HTML element nakon odredjenog (.main) */
+.main + p {
+  background-color: burlywood;
+}
+.main > p {
+  background-color: cornflowerblue;
+}
