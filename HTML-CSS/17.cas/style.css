@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Babylonica&family=Fjalla+One&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Babylonica", cursive;
+}
+.header {
+  background-color: aquamarine;
+  width: 100vw;
+  height: 15vh;
+  position: relative;
+}
+.header img {
+  width: 5vw;
+  height: 6vw;
+  float: left;
+  position: absolute;
+  bottom: 15px;
+  left: 20px;
+}
+.links {
+  float: right;
+  position: absolute;
+  top: 35px;
+  right: 50px;
+}
+a {
+  font-size: 22px;
+  margin: 10px;
+  background-color: #6495ed;
+  padding: 12px;
+  border-radius: 10px;
+  text-decoration: none;
+  width: 30px;
+  height: 15px;
+  color: rgb(13, 13, 113);
+}
+a:hover {
+  background-color: rgb(4, 4, 43);
+  color: rgb(108, 108, 236);
+}
+/* a:visited {
+  color: #e01010;
+}    */
+a:active {
+  color: aliceblue;
+}
+p {
+  font-size: larger;
+  word-spacing: 10px;
+  letter-spacing: 2px;
+  line-height: 40px;
+}
+.icon {
+  background-color: aqua;
+  height: 50px;
+  width: 50px;
+  font-size: 50px;
+  text-align: center;
+  margin-left: 50%;
+  border-radius: 50%;
+}
+button {
+  background-color: blueviolet;
+  color: rgb(36, 7, 63);
+  padding: 10px;
+  border: 1px solid rgb(35, 117, 137);
+  border-radius: 6px;
+  /* cursor: pointer; */
+  /* cursor: grab; */
+  cursor: default;
+}
