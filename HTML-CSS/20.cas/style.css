@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Babylonica", cursive;
+}
+
+.parent {
+  margin: auto;
+  width: 60%;
+  height: 80vh;
+  background-color: aqua;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  /* flex-wrap: nowrap; default vrednost */
+  flex-wrap: wrap;
+  /* flex-wrap: wrap-reverse; */
+  /* gap: 15px; prostor izmedju kolona, izmedju child elemenata*/
+  /* row-gap: ; prostor izmedju redova, a s obzirom da display:flex ima samo jedan red necemo ga korostit ovde */
+  /* column-gap: 15px; prostor izmedju kolona, iszti efekat kao gap */
+}
+.box {
+  flex-basis: 150px; /* flex basis je dobra praksa za koriscenje umesto width, ISTI JE EFEKAT*/
+  height: 120px;
+}
+.first {
+  background-color: rgb(199, 162, 92);
+  /* flex-grow: 2; uzima jednu celinu sirine, treba ga definisati i na ostalim child elementima*/
+  /* flex-shrink: 3; Property dolazi do izarazaja kada suzavamo ekran. Pozeljno je imati
+   definisanu sirinu childa kako bi svojstvo flex-shrink dpslo do izrazaja */
+  /* order svojstvo nam sluzi za redjanja elemenata na stranici po nasoj zelji. MENJAMO HTML POREDATK ELEMENATA */
+  order: 2;
+}
+.second {
+  background-color: pink;
+  /* flex-grow: 1; */
+  /* flex-shrink: 1; */
+  order: 3;
+}
+.third {
+  background-color: green;
+  /* flex-grow: 1; */
+  /* flex-shrink: 1; */
+  order: 1;
+}
