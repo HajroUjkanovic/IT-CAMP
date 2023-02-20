@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Babylonica", cursive;
+}
+
+.parent {
+  margin: auto;
+  width: 60%;
+  height: 80vh;
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  /* Horizontalno poravnanje: */
+  /* align-items: center; */
+  align-items: flex-end;
+
+  /* Vertikalno poravnanje */
+  justify-content: flex-end;
+  justify-content: space-between;
+}
+.box {
+  width: 150px;
+  height: 120px;
+}
+.first {
+  background-color: rgb(199, 162, 92);
+}
+.second {
+  background-color: pink;
+}
+.third {
+  background-color: green;
+}
