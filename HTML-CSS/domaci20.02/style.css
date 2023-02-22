@@ -65,7 +65,7 @@ h3 {
 }
 p {
   margin-top: 10px;
-  color: #ababad;
+  color: #525255;
 }
 .image {
   float: right;
@@ -84,4 +84,121 @@ p {
   height: 600px;
   align-items: center;
   justify-content: space-around;
+}
+
+.card1 {
+  background-color: rgb(203, 199, 199);
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 300px;
+  height: 460px;
+  display: inline-block;
+  margin-left: 150px;
+  margin-top: 100px;
+}
+.card1:hover {
+  transform: scale(1.2);
+  transition: 1.5s;
+  background-color: white;
+}
+.card2 {
+  background-color: rgb(203, 199, 199);
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 300px;
+  height: 460px;
+  display: inline-block;
+  margin-left: 150px;
+}
+.card2:hover {
+  transform: scale(1.2);
+  transition: 1.5s;
+  background-color: white;
+}
+.card3 {
+  background-color: rgb(203, 199, 199);
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 300px;
+  height: 460px;
+  display: inline-block;
+  margin-left: 200px;
+}
+.card3:hover {
+  transform: scale(1.2);
+  transition: 1.5s;
+  background-color: white;
+}
+.cardh1 {
+  text-align: center;
+}
+.cardp1 {
+  text-align: center;
+}
+.h1incard {
+  text-align: center;
+  font-size: 50px;
+  color: black;
+}
+.attend {
+  text-align: center;
+}
+.p1incard {
+  text-align: center;
+  color: #4d4d50;
+}
+h3 {
+  color: black;
+}
+.button1 {
+  width: 150px;
+  height: 50px;
+  border-radius: 25px;
+  margin-left: 25%;
+  background-color: transparent;
+}
+.button1:hover {
+  background-color: blue;
+  color: white;
+}
+footer {
+  width: 100%;
+  height: 400px;
+  background-color: rgb(18, 18, 37);
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+.divfooter1 {
+  width: 50px;
+  height: 50px;
+  color: white;
+  border-radius: 50%;
+  background-color: white;
+  transition: transform 0.5s ease-in 0.5s;
+}
+footer:hover .divfooter1 {
+  transform: translateX(2900%);
+}
+.divfooter2 {
+  width: 50px;
+  height: 50px;
+  color: white;
+  float: right;
+  border-radius: 50%;
+  background-color: white;
+  clear: both;
+  transition: transform 0.5s ease-in 0.5s;
+}
+footer:hover .divfooter2 {
+  transform: translateX(-2900%);
+}
+.divfooter3 {
+  clear: both;
+  width: 200px;
+  height: 20px;
+  margin: auto;
+  position: relative;
+  top: 40px;
+  color: white;
 }

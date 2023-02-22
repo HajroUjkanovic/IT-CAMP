@@ -26,8 +26,8 @@
   transform: translateX(100%, 100%) 2s; /* Pomeranje po x i y osi*/
   background-color: blueviolet;
 }
-.child:hover {
+/* .child:hover {
   /* transform: scale(1.2); jedna vrednost povecava-smanjuje element na osnovvu unete vrednosti proporcionalo po x i y osi */
   /* ako imamo dve vrednost, prva se odnosi na sirinu druga na visinu */
   /* transform: scale(0.5, 1.5); */
-}
+} */
