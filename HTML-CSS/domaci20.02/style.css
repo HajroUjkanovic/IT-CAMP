@@ -192,7 +192,7 @@ footer:hover .divfooter1 {
   border-radius: 50%;
   background-color: white;
   clear: both;
-  transition: transform 0.5s ease-in 0.5s;
+  transition: transform 0.5s ease-in-out 0.5s;
 }
 footer:hover .divfooter2 {
   transform: translateX(-2900%);
@@ -209,3 +209,31 @@ footer:hover .divfooter2 {
 .icon2 {
   color: red;
 }
+
+/* @media all and (min-width: 300px), (max-width: 350px) {
+  .header {
+    width: 100vh;
+  }
+  .image {
+    width: 200px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+  }
+  .parent {
+    display: flex;
+    flex-direction: column;
+  }
+  .div1 {
+    margin: auto;
+  }
+  .div2 {
+    margin: auto;
+  }
+  .div3 {
+    margin: auto;
+  }
+  .div4 {
+    margin: auto;
+  }
+} */
